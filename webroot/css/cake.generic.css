@@ -72,9 +72,32 @@ p {
 	margin: 0 0 1em 0;
 }
 
+
+
+
+#clock {
+	font-size: 50px;
+}
+#image {
+
+	float:left;
+}
+#description {
+	width: 320px;
+	float:left;
+	font-size: 15px;
+	margin: 0 0 0 280px;
+}
+
+
+
+
+
+
 /** Layout **/
 #container {
 	text-align: left;
+	min-height:100%;
 }
 
 #header{
@@ -103,12 +126,15 @@ p {
 	color: #333;
 	padding: 10px 20px 40px 20px;
 	overflow: auto;
+	min-height:100%;
 }
 #footer {
 	clear: both;
 	padding: 6px 10px;
 	text-align: right;
 }
+
+
 
 /** containers **/
 div.form,
