@@ -23,7 +23,7 @@
 
 /** General Style Info **/
 body {
-	background: #003d4c;
+	background: #ed592f;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
@@ -77,16 +77,19 @@ p {
 
 #clock {
 	font-size: 50px;
+	color: #4886bf;
 }
 #image {
-
+	margin-left: 120px;
 	float:left;
 }
 #description {
+	font: Arial;
 	width: 320px;
 	float:left;
-	font-size: 15px;
-	margin: 0 0 0 280px;
+	font-size: 19px;
+	color: #4886bf;
+/*	margin: 0 0 0 50px;*/
 }
 
 
