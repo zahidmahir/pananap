@@ -62,7 +62,7 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => '127.0.0.1',
+		'host' => 'localhost',
 		'login' => 'pananap',
 		'port' => 8889,
 		'password' => 'pananappassword',
