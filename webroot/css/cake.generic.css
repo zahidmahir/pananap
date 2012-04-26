@@ -78,6 +78,7 @@ p {
 #clock {
 	font-size: 50px;
 	color: #4886bf;
+	margin: 10px 0 0 10px;
 }
 #image {
 	margin-left: 120px;
@@ -89,7 +90,7 @@ p {
 	float:left;
 	font-size: 19px;
 	color: #4886bf;
-/*	margin: 0 0 0 50px;*/
+	margin: 0 0 0 10px;
 }
 
 
