@@ -7,7 +7,7 @@
 var state = {
 	currentTime: 2145,
 	speed: 50,
-	fastForward: 5,
+	fastForward: 30,
 	regularSpeed: 1000
 }
 

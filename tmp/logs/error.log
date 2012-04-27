@@ -164,3 +164,24 @@
 2012-04-26 23:49:07 Error: [MissingControllerException] Controller class FilesController could not be found.
 #0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-04-26 23:49:38 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-26 23:50:10 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-26 23:50:42 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-26 23:51:14 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-26 23:52:03 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-27 00:16:11 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-27 00:40:20 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/Mahir/Sites/pananap/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
