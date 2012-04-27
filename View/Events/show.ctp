@@ -5,7 +5,7 @@
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
 var state = {
-	currentTime: 2145,
+	currentTime: '2200',
 	speed: 50,
 	fastForward: 30,
 	regularSpeed: 1000
@@ -33,6 +33,14 @@ var display = function display() {
 	$('#clock').html(time);
 };
 
+function resetToNight() {
+	if(state.currentTime == '2205') {
+		console.log('resetting time');
+		state.currentTime == '2200';
+		console.log('currentTime = ' + state.currentTime);
+	}
+}
+
 interval = setInterval(display, state.speed);
 
 function setSpeedIn(future, speed){
@@ -53,8 +61,14 @@ function setSpeed(speed){
 }
 
 function incrementTime() {
+	console.log(state.currentTime);
 	var hour, minute;
 	var currentTime = state.currentTime;
+	if(state.currentTime == 705) {
+		console.log('resetting time');
+		// state.currentTime == 2200;
+		javascript:location.reload(true);
+	}
 	if(currentTime < 60) {
 		hour = 0;
 		minute = currentTime;
